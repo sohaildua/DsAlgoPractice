@@ -1,4 +1,4 @@
-package org.designpattern;
+package org.designpattern.factorymethod;
 
 public class Nintendo extends VideoGameType {
 

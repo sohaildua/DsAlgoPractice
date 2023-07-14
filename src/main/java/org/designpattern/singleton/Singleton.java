@@ -1,4 +1,4 @@
-package org.designpattern;
+package org.designpattern.singleton;
 
 public class Singleton {
 

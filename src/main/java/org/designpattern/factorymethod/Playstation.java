@@ -1,4 +1,4 @@
-package org.designpattern;
+package org.designpattern.factorymethod;
 
 public class Playstation extends VideoGameType{
     @Override
