@@ -31,6 +31,42 @@ public class Tree {
         }
     }
 
+    public void preorder(Node node){
+        if (node == null)
+            return;
+
+        // First print data of node
+        System.out.print(node.value + " ");
+
+        // Then recur on left subtree
+        preorder(node.left);
+
+        // Now recur on right subtree
+        preorder(node.right);
+    }
+
+    public void inorder(Node node){
+        if (node == null)
+            return;
+        // Then recur on left subtree
+        inorder(node.left);
+        System.out.print(node.value + " ");
+        // Now recur on right subtree
+        inorder(node.right);
+    }
+
+
+    public void postorder(Node node){
+        if (node == null)
+            return;
+        // Then recur on left subtree
+        postorder(node.left);
+
+        // Now recur on right subtree
+        postorder(node.right);
+
+        System.out.print(node.value + " ");
+    }
     public static void main(String args[])
     {
         Tree tree = new Tree();
@@ -45,6 +81,12 @@ public class Tree {
         tree.insert(root, 3);
         tree.insert(root, 9);
         System.out.println("Traversing tree in order");;
+        System.out.println("Traversing tree in preorder");;
+        tree.preorder(root);
+        System.out.println("Traversing tree in inorder");;
+        tree.inorder(root);
+        System.out.println("Traversing tree in postorder");;
+        tree.postorder(root);
 
     }
 
