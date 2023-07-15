@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d029fb74-ccab-4f52-a7a1-8483c1735ace" name="Changes" comment="Learning basic treeeee">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/designpattern/builderpattern/User.java" afterDir="false" />
+    <list default="true" id="d029fb74-ccab-4f52-a7a1-8483c1735ace" name="Changes" comment="bulder pattern and creating more packages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/sortalgo/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/sortalgo/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/designpattern/FactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/designpattern/factorymethod/FactoryMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/designpattern/Nintendo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/designpattern/factorymethod/Nintendo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/designpattern/Playstation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/designpattern/factorymethod/Playstation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/designpattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/designpattern/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/designpattern/Xbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/designpattern/factorymethod/Xbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,20 @@
       <recent name="org.designpattern.builderpattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.User">
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.sortalgo.BubbleSort" />
+      <module name="Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.data.sortalgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.designpattern.factorymethod.FactoryMethod" />
       <module name="Codes" />
@@ -68,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TestThreads" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.sortalgo.SelectionSort" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.data.sortalgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.data.tree.Tree" />
-      <module name="Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.data.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.User" />
         <item itemvalue="Application.FactoryMethod" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.TestThreads" />
-        <item itemvalue="Application.Tree" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +134,9 @@
       <updated>1689201983393</updated>
       <workItem from="1689201985151" duration="1448000" />
       <workItem from="1689262353207" duration="13099000" />
-      <workItem from="1689342586956" duration="1439000" />
+      <workItem from="1689342586956" duration="2072000" />
+      <workItem from="1689428366556" duration="4671000" />
+      <workItem from="1689448464664" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689265348477</created>
@@ -177,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689297017706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bulder pattern and creating more packages">
+      <created>1689346436785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689346436785</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +202,8 @@
     <MESSAGE value="Learning basic tree" />
     <MESSAGE value="creating Singleton pattern" />
     <MESSAGE value="Learning basic treeeee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learning basic treeeee" />
+    <MESSAGE value="bulder pattern and creating more packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="bulder pattern and creating more packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
