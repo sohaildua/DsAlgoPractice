@@ -32,12 +32,12 @@ public class MergeSort {
             mergedArray[x++] = arr[idx1++];
         }
 
-        while (idx2 <= high) {
+        while (idx2 <= high)  {
             mergedArray[x++] = arr[idx2++];
         }
 
         for (int i = 0, j = low; i < mergedArray.length; i++, j++) {
-            arr[j] = mergedArray[i]; 
+            arr[j] = mergedArray[i];
         }
     }
 
