@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d029fb74-ccab-4f52-a7a1-8483c1735ace" name="Changes" comment="bulder pattern and creating more packages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/sortalgo/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/sortalgo/MergeSort.java" afterDir="false" />
+    <list default="true" id="d029fb74-ccab-4f52-a7a1-8483c1735ace" name="Changes" comment="sorting algos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +135,9 @@
       <workItem from="1689342586956" duration="2072000" />
       <workItem from="1689428366556" duration="4671000" />
       <workItem from="1689448464664" duration="2686000" />
-      <workItem from="1689519660539" duration="5422000" />
+      <workItem from="1689519660539" duration="6724000" />
+      <workItem from="1689629724275" duration="232000" />
+      <workItem from="1689710830460" duration="1089000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689265348477</created>
@@ -188,7 +188,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689452332901</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sorting algos">
+      <created>1689531965177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689531965177</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sorting algos">
+      <created>1689629753840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689629753840</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sorting algos">
+      <created>1689629947698</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689629947698</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +232,8 @@
     <MESSAGE value="creating Singleton pattern" />
     <MESSAGE value="Learning basic treeeee" />
     <MESSAGE value="bulder pattern and creating more packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="bulder pattern and creating more packages" />
+    <MESSAGE value="sorting algos" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorting algos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
