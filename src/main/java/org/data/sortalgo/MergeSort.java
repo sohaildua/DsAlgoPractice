@@ -37,7 +37,7 @@ public class MergeSort {
         }
 
         for (int i = 0, j = low; i < mergedArray.length; i++, j++) {
-            arr[j] = mergedArray[i];
+            arr[j] = mergedArray[i]; 
         }
     }
 
