@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d029fb74-ccab-4f52-a7a1-8483c1735ace" name="Changes" comment="sorting algos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/DataString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/strings/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/strings/SolutionReciprocal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/objectCreation/WaysToConstructObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/objectCreation/WaysToConstructObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +25,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,26 +58,13 @@
       <recent name="org.designpattern.builderpattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.data.sortalgo.BubbleSort" />
+  <component name="RunManager" selected="Application.SolutionReciprocal">
+    <configuration name="DataString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.DataString" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.data.sortalgo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.designpattern.factorymethod.FactoryMethod" />
-      <module name="Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.designpattern.singleton.*" />
+          <option name="PATTERN" value="org.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.data.sortalgo.SelectionSort" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.strings.ReverseString" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.data.sortalgo.*" />
+          <option name="PATTERN" value="org.data.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.designpattern.builderpattern.User" />
+    <configuration name="SolutionReciprocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.strings.SolutionReciprocal" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.designpattern.builderpattern.*" />
+          <option name="PATTERN" value="org.data.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaysToConstructObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.objectCreation.WaysToConstructObject" />
+      <module name="Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.data.objectCreation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolutionReciprocal" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.DataString" />
+        <item itemvalue="Application.WaysToConstructObject" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.User" />
-        <item itemvalue="Application.FactoryMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +149,14 @@
       <workItem from="1689448464664" duration="2686000" />
       <workItem from="1689519660539" duration="6724000" />
       <workItem from="1689629724275" duration="232000" />
-      <workItem from="1689710830460" duration="1089000" />
+      <workItem from="1689710830460" duration="5283000" />
+      <workItem from="1689906064587" duration="49000" />
+      <workItem from="1689947808699" duration="3436000" />
+      <workItem from="1689972873429" duration="1955000" />
+      <workItem from="1690151732805" duration="898000" />
+      <workItem from="1690203043489" duration="1023000" />
+      <workItem from="1690289737660" duration="1267000" />
+      <workItem from="1690323586441" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689265348477</created>
@@ -209,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689629947698</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="sorting algos">
+      <created>1689716382324</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689716382324</updated>
+    </task>
+    <task id="LOCAL-00012" summary="sorting algos">
+      <created>1689975836932</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689975836932</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +281,21 @@
           <line>6</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/data/strings/SolutionReciprocal.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/data/strings/SolutionReciprocal.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/data/strings/SolutionReciprocal.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -255,5 +303,10 @@
         <PinnedItemInfo parentTag="org.designpattern.Nintendo" memberName="tax" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Codes$SolutionReciprocal.ic" NAME="SolutionReciprocal Coverage Results" MODIFIED="1690325218672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.data.strings.*</FILTER>
+    </SUITE>
   </component>
 </project>

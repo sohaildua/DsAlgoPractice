@@ -21,7 +21,7 @@ public class WaysToConstructObject {
 
         // clone
 
-        List<Integer> myList = Arrays.asList(10,15,8,49,25,98,32);
+        List<Integer> myList = Arrays.asList(10, 15, 8, 49, 25, 98, 32);
         myList.forEach(System.out::println);
         Map<Integer, String> namesMap = new HashMap<>();
         namesMap.put(1, "Larry");
@@ -31,5 +31,14 @@ public class WaysToConstructObject {
         List<String> stringList = new ArrayList<>();
         namesMap.forEach((key, value) -> stringList.add(value));
         System.out.println(stringList);
+
+        String text = """
+                {
+                  "name": "John Doe",
+                  "age": 45,
+                  "address": "Doe Street, 23, Java Town"
+                }
+                """;
+        System.out.println(text);
     }
 }
