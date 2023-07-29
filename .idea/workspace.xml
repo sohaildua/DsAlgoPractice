@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d029fb74-ccab-4f52-a7a1-8483c1735ace" name="Changes" comment="sorting algos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/DataString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/strings/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/strings/SolutionReciprocal.java" afterDir="false" />
+    <list default="true" id="d029fb74-ccab-4f52-a7a1-8483c1735ace" name="Changes" comment="practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/data/MergeSinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/objectCreation/WaysToConstructObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/data/objectCreation/WaysToConstructObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/data/CompletionStageStack.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <recent name="org.designpattern.builderpattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SolutionReciprocal">
+  <component name="RunManager" selected="Application.MergeSinglyLinkedList">
     <configuration name="DataString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.data.DataString" />
       <module name="Codes" />
@@ -72,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.data.sortalgo.MergeSort" />
+    <configuration name="MergeSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.data.MergeSinglyLinkedList" />
       <module name="Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.data.sortalgo.*" />
+          <option name="PATTERN" value="org.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSinglyLinkedList" />
         <item itemvalue="Application.SolutionReciprocal" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.DataString" />
         <item itemvalue="Application.WaysToConstructObject" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +155,7 @@
       <workItem from="1690203043489" duration="1023000" />
       <workItem from="1690289737660" duration="1267000" />
       <workItem from="1690323586441" duration="3193000" />
+      <workItem from="1690586590068" duration="1809000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689265348477</created>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689975836932</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="practice">
+      <created>1690586707429</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690586707429</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +272,8 @@
     <MESSAGE value="Learning basic treeeee" />
     <MESSAGE value="bulder pattern and creating more packages" />
     <MESSAGE value="sorting algos" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorting algos" />
+    <MESSAGE value="practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
